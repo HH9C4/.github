@@ -205,22 +205,22 @@
 > [Sentry Image](https://github.com/HH9C4/BBBB-BE/wiki/%5BTech%5D-Sentry)
 
 
-### ◻ Github Actions & Code Deploy (CI/CD)
+### ◻ Github Actions & Code Deploy (CI/CD) _ BE
 
 > 자동 빌드/배포를 위하여 깃허브 액션과 코드디플로이를 활용하여 CI/CD 를 구축했습니다.         
 > [AWS CodeDeploy](https://github.com/HH9C4/BBBB-BE/wiki/%5BTech%5D-AWS-CodeDeploy)
 
-### ◻ Nginx ReverseProxy (무중단배포)
+### ◻ Nginx ReverseProxy (무중단배포) _ BE
 
 > 서비스 운영중 업데이트를 위한 재배포시 중단없는 서비스 제공을 위하여 Nginx ReverseProxy를 활용해 무중단배포를 구현하였습니다.       
 
 
-### ◻ Scheduler를 통한 open api 호출
+### ◻ Scheduler를 통한 open api 호출 _ BE
  
 > 5분마다 변동되는 데이터를 수집/제공/관리 하기 위하여 스케쥴러를 활용하였습니다.
 
 
-### ◻ Redis
+### ◻ Redis _ BE
 
 > 연속된 요청으로 인한 DB병목을 해소하고 RefreshToken 등 소멸기간이 존재하는 데이터의 TimeToLive 관리를 용이하게 할 수 있도록 Redis를 도입하였습니다.
 
@@ -240,12 +240,12 @@
 
 ## 🚨 Trouble Shooting
 
-### 🚨 FE
+### ◻ FE
 #### 다중 이미지 등록/수정을 위한 이미지 업로드 훅 수정 [Wiki >](https://github.com/HH9C4/YGHH-FE/wiki/%5BTrouble-Shooting%5D-%EB%8B%A4%EC%A4%91%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%93%B1%EB%A1%9D)
 #### 태그 State 관리 [Wiki >](https://github.com/HH9C4/YGHH-FE/wiki/%5BTrouble-Shooting%5D-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%9E%91%EC%84%B1-form-%EB%82%B4-%ED%83%9C%EA%B7%B8-%EA%B2%80%EC%83%89-%EB%93%B1%EB%A1%9D-%EC%82%AD%EC%A0%9C)
 #### SSE-다중 connect 현상 [Wiki >](https://github.com/HH9C4/YGHH-FE/wiki/%5BTrouble-Shooting%5D-Server-Sent-Event-%EB%8B%A4%EC%A4%91-%EC%BB%A4%EB%84%A5%ED%8C%85-%ED%98%84%EC%83%81)
 
-### 🚨 BE
+### ◻ BE
 
 #### Join Fetch 순서 보장 문제 [WIKI보기](https://github.com/HH9C4/BBBB-BE/wiki/%5BTrouble-Shooting%5D-Join-Fetch-%EC%88%9C%EC%84%9C-%EB%B3%B4%EC%9E%A5-%EB%AC%B8%EC%A0%9C)
 
@@ -264,12 +264,12 @@
 
 ## :raising_hand::thought_balloon: Concern
 
-### :raising_hand::thought_balloon: FE
+### ◻ FE
 
 #### Tailwind CSS [Wiki >](https://github.com/HH9C4/YGHH-FE/wiki/%5BConcern%5D-Tailwind-CSS-Framework)
 #### Redux -> Recoil refactoring [Wiki >](https://github.com/HH9C4/YGHH-FE/wiki/%5BConcern%5D-Redux-toolkit----Recoil-refactoring)
 
-### :raising_hand::thought_balloon: BE
+### ◻ BE
 
 #### Access Token and Refresh Token Reissue Process [WIKI보기](https://github.com/HH9C4/BBBB-BE/wiki/%5BConcern%5D-Access-Token-and-Refresh-Token-Reissue-Process)
 
